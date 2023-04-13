@@ -1,8 +1,6 @@
-# KrakenFlex Back End Test
+# Back End - Site Outages
 
 ### Requirements
-
-Write a small program to do the following:
 
 1. Retrieves all outages from the `GET /outages` endpoint
 2. Retrieves information from the `GET /site-info/{siteId}` endpoint for the site with the ID `norwich-pear-tree`
@@ -11,7 +9,7 @@ Write a small program to do the following:
 5. Sends this list of outages to `POST /site-outages/{siteId}` for the site with the ID `norwich-pear-tree`
 * A suite of appropriate unit tests
 
-### My solution
+### Solution
 
 This program is likely to be a small part of a much larger program that could be used to monitor and collect outages for a large amount of sites. I have tried to structure my code into reusable functions that could be called for different sites and singularly if only a small part of the functionality is required. 
 
